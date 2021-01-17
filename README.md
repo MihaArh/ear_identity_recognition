@@ -1,1 +1,1 @@
-# ear_identity_recognition
+# Ear Identity Recognition Using VGG16 model
