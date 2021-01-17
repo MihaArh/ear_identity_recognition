@@ -33,6 +33,7 @@ for x, y in test_dataset:
         elif found:
             rank[id] = rank[id] + 1
 rank = list(map(lambda x: x / 250, rank))
+print(rank)
 plt.plot(list(range(1, 101)), rank)
 plt.ylabel('Rank - t Identification Rate (%)')
 plt.xlabel('Rank (t)')
